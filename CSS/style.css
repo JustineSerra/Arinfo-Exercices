@@ -1,0 +1,36 @@
+h1 {
+      border: 2px;
+      margin:30px;
+      margin-top: 50px;
+      color: blue;
+font-size: 16px;
+font-weight: bold;
+font-style: italic;
+text-align: center;
+}
+h2 {
+    color: rgb(88, 25, 41);
+    margin: 40px;
+    margin-top: 70px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    :hover { color: rgb(173, 71, 97); }
+    transform: scale(1.05);
+}
+
+p {
+    color: rgb(49, 141, 46);
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+     text-align: justify;
+}
+body {
+    background-color: rgb(230, 210, 144);
+     padding : 20px;
+     font-family: Arial, Helvetica, sans-serif;
+@import url(https://fonts.google.com/specimen/Montserrat);
+}
