@@ -1,0 +1,136 @@
+/* --- Styles de base --- */
+body {
+    margin: 0;
+    color: #070707;
+    justify-content: center;
+    background-color: #7676f3;
+}
+
+header {
+    background-color: #b4d5f7;
+    color: rgb(184, 82, 170);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+section, article.galerie-section {
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    border-radius: 6px;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+/* --- Navigation --- */
+nav {
+    background: rgb(184, 82, 170);
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a:link {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:visited {
+    color: #f7f7f7;
+}
+nav a:hover {
+    color: #181514;
+    font-size: 1rem;
+}
+h2::before {
+    content: "🎵 ";
+    font-size: 1.2rem;
+}
+
+aside p::before {
+    content: color #f7f7f7;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+aside {
+    text-align: center;
+}
+
+/* Styles pour le contenu Multimédia */
+
+.video-container, .audio-container, .map-responsive {
+    margin-top: 15px;
+    text-align: center;
+}
+
+video, iframe {
+    border: 2px solid #34495e;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Effet sur les formulaires */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border: 2px solid #e74c3c;
+    background-color: #fffaf0;
+}
+
+button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+/* Style pour l'article de la galerie */
+article.galerie-section {
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Conteneur des images */
+.images-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.images-container img {
+    width: 10%;
+    min-width: 280px;
+    border-radius: 10px; 
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background:  rgb(184, 82, 170);
+    color: white;
+    margin-top: 10px;
+}

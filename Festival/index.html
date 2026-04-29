@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Festival Harmonie des Sons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Festival Harmonie des Sons</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#festival">Le festival</a></li>
+            <li><a href="#programme">Aperçu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="festival">
+            <article>
+                <h2>Présentation du festival</h2>
+                <p> Le festival a été crée en 2023 par deux frères passionés de musique.</p>
+            </article>
+        </section>
+    
+        <section id="programme">
+            <h2> Aperçu de l'édition précédente</h2>
+            <div class="video-container">
+                <video controls poster="img/aperçu-video.jpg" width="30%"
+                    <source src="video.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas l'élément vidéo
+                </video>
+            </div>
+
+            <div class="audio-container">
+                <h3>Ecoutez l'un de nos artistes</h3>
+                <audio controls> 
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio
+                </audio>
+            </div>   
+        </section>
+
+         <section class="galerie-festival">
+            <h2>Galérie des éditions précédentes</h2>
+            <p>Revivez les super moments du festival : </p>
+            <div class="images-container">
+                <img src="Photo1.jpg" alt="Scène avec les artistes et le public devant">
+                <img src="Photo2.jpg" alt="Le public">
+            </div>
+        </section>
+
+        <section id="acces">
+                <h2>Lieu du festival</h2>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.029212083098!2d-2.205656043303393!3d47.27468347960796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48056586b1e73ec3%3A0x59e9a12b29ff1681!2sBase%20sous-marine%20de%20Saint-Nazaire!5e0!3m2!1sfr!2sfr!4v1777452234827!5m2!1sfr!2sfr" width="300" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </section>
+
+        <section id="contact">
+        <h2>Posez-nous toutes vos questions</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required placeholder="votre@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="sujet">Sujet de votre message</label>
+                    <select id="sujet" name="sujet">
+                        <option value="newsletter">S'inscrire à la newsletter</option>
+                        <option value="tarif">Tarif</option>
+                        <option value="restauration">Restauration</option>
+                        <option value="autre">Autre demande</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Votre message</label>
+            <br>
+            <textarea id="message" name="message" rows="5" placeholder="Dites-nous tout..."></textarea>
+        </div>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+                
+    </main>
+
+    <aside>
+        <p>💡 Le saviez-vous ? Le festival a accueilli plus de 20 000 visiteurs en 2025.</p>
+    </aside>
+
+
+    <footer>
+        <p>&copy; 2026 Festival Harmonie des Sons. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
