@@ -1,0 +1,40 @@
+.container {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(180, 118, 2);
+}
+
+.nav {
+    display : flex;
+    justify-content: space-between;
+    background-color : rgb(53, 230, 91);
+}
+
+.liste {
+    display : flex;
+    align-items : flex-start;
+    height : 100vh;
+    background-color: blueviolet;
+}
+
+.actions {
+    display : flex;
+    justify-content: space-around;
+    align-items : center;
+    width : 50px;
+}
+
+.liste-wrap{
+    display : flex;
+    flex-wrap : wrap;
+    width : 200px;
+}
+
+.liste-bonus{
+    display:flex;
+    flex-wrap:wrap;
+    height : 100px;
+    align-content: space-between;
+}
